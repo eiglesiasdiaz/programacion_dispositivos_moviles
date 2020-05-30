@@ -1,2 +1,3 @@
 # programacion_dispositivos_moviles
-Proyecto de examen global para la asignatura Programación de Dispositivos Móviles.
+
+Proyecto de examen global desarrollado en Flutter utilizando lenguaje de programación Dart, correspondiente a la asignatura: "Programación de dispositivos móviles", que consiste en la aplicación de 3 preguntas de opción múltiple y una pantalla de resultados.
