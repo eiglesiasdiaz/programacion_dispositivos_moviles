@@ -89,7 +89,7 @@ class _Pregunta2State extends State<Pregunta2> {
               if (globals.respuesta2) {
                 _showAlertDialog(context, 'Pregunta 2', 'La respuesta es CORRECTA.');
               } else {
-                _showAlertDialog(context, 'Pregunta 2', 'La respuesta correcta es la D.');
+                _showAlertDialog(context, 'Pregunta 2', 'La respuesta es INCORRECTA.');
               }
             } 
           ),
