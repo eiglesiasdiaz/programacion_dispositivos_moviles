@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:examen_global/src/pages/pregunta1.dart';
 import 'package:examen_global/src/pages/funciones.dart';
+import 'package:examen_global/src/pages/globals.dart' as globals;
 
 class Resultado extends StatefulWidget {
   static final String routeName = 'resultado';
@@ -27,7 +28,6 @@ class _ResultadoState extends State<Resultado> {
         ),
       ),
 
-
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
@@ -36,6 +36,9 @@ class _ResultadoState extends State<Resultado> {
             tooltip: 'Rehacer cuestionario',
             child: Icon(Icons.list), 
             onPressed: () {
+              globals.respuesta1 = false;
+              globals.respuesta2 = false;
+              globals.respuesta3 = false;
               Navigator.push( context, MaterialPageRoute(builder: (context) => Pregunta1()) );
             } 
           ),
